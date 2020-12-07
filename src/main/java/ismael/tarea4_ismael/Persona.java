@@ -52,8 +52,5 @@ public class Persona {
         return "Persona{" + "edad=" + edad + ", colorPiel=" + colorPiel + ", altura=" + altura + '}';
     }
     
-    public static void main(String[] args) {
-        
-    }
     
 }
