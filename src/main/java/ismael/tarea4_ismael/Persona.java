@@ -13,5 +13,14 @@ public class Persona {
     int edad;
     String colorPiel;
     double altura;
-    //asdafaf
+
+    public Persona() {
+    }
+
+    public Persona(int edad, String colorPiel, double altura) {
+        this.edad = edad;
+        this.colorPiel = colorPiel;
+        this.altura = altura;
+    }
+    
 }
