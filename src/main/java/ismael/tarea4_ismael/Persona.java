@@ -22,5 +22,34 @@ public class Persona {
         this.colorPiel = colorPiel;
         this.altura = altura;
     }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public String getColorPiel() {
+        return colorPiel;
+    }
+
+    public double getAltura() {
+        return altura;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public void setColorPiel(String colorPiel) {
+        this.colorPiel = colorPiel;
+    }
+
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+
+    @Override
+    public String toString() {
+        return "Persona{" + "edad=" + edad + ", colorPiel=" + colorPiel + ", altura=" + altura + '}';
+    }
     
 }
